@@ -171,7 +171,7 @@ public class OrderListFragment extends Fragment {
                              Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_order_list, container, false);
         curOrder = (MyApp) getActivity().getApplicationContext();
-        // Popup ABCDEFGH ABCD
+        // Popup ABCDEFGH ABCDFADFAE SADFASDFAS
         final popupHolder mPopupStuff = new popupHolder();
         final PopupWindow popUp;
         View popView = inflater.inflate(R.layout.note, null, true);
